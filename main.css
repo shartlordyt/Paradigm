@@ -36,3 +36,9 @@ font-size: 350%;
 .aboutblank:focus {
   opacity: .75;
 }
+
+
+
+.app {
+  text-align: center;
+  font-size: 450%;
