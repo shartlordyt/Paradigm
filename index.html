@@ -1,0 +1,1 @@
+<script src="https://unpkg.com/cursor-effects@latest/dist/browser.js"></script>
