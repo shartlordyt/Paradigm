@@ -1,7 +1,8 @@
 <body>
 
 <script src="https://unpkg.com/cursor-effects@latest/dist/browser.js"></script>
-<script> window.addEventListener("load", (event) => {
+<script src="main.js"></script>
+	<script> window.addEventListener("load", (event) => {
   new cursoreffects.followingDotCursor();
 });
 </script>
@@ -11,25 +12,10 @@
 <h1> Paradigm | Alpha </h1>
 	<div style="text-align:center;"> <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fshartlordyt%2FParadigm&count_bg=%233D8CC8&title_bg=%23555555&icon=jsdelivr.svg&icon_color=%23E7E7E7&title=Daily+Visits+%7C+All+Time+Visits&edge_flat=false"/></a>
 	</div>
-	<div style="padding 20px">
+	
 		<button class="aboutblank" onclick="blank()">Open in about:blank </button>
-	<script>
-function blank(){
-      (function () {var url = document.URL; var urlObj = new window.URL(window.location.href); win = window.open(); win.document.body.style.margin = "0"; win.document.body.style.height = "100vh"; var iframe = win.document.createElement("iframe"); iframe.style.border = "none"; iframe.style.width = "100%"; iframe.style.height = "100%"; iframe.style.margin = "0"; iframe.referrerpolicy = "no-referrer"; iframe.allow = "fullscreen"; iframe.src = url.toString(); win.document.body.appendChild(iframe); var script = win.document.createElement("script"); script.src = ""; win.document.body.appendChild(script); })();
-    }</script>
-	
-<button class="aboutblank" onclick="tabcloaker()"> Cloak tab as Google </button>
-	<script>
-	function tabcloaker() {
-    var l = document.querySelector("link[rel*='icon']") || document.createElement('link');
-    l.type = 'image/x-icon';
-    l.rel = 'shortcut icon';
-    l.href = 'https://google.com/favicon.ico';
-    document.getElementsByTagName('head')[0].appendChild(l);
-    document.title = 'Google';
-}
-	
-	</script> 
+		
+		<button class="aboutblank" onclick="tabcloaker()"> Cloak tab as Google </button>
 
 		<div class="dropdown">
   <button onclick="Dropdown()" class="dropbutton">Tab Cloakers</button>
@@ -38,9 +24,8 @@ function blank(){
     <button onclick="tabcloakercanvas"> Canvas Tab Cloak</button>
     <button onclick="tabcloakernew"> New Tab Cloak</button>
   </div>
-</div>
 
-		
+
 <a  class="app" href="apps/btd4.html"> Bloons Tower Defense 4 </a>
 		<a  class="app" href="apps/infernalthrone.html"> Infernal Throne </a>
 	</div>
