@@ -58,11 +58,15 @@ font-size: 350%;
   touch-action: manipulation;
   width: 100%;
 }
-.p {
+p {
   color: #2596be;
   font-size: 16px;
+  text-align: center;
 }
-.h1 {
+h1 {
+  background-color: #145369;
   color: #2596be;
   font-size: 26px;
+  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+  text-align: center;
 }
