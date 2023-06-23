@@ -22,5 +22,17 @@ iframe.src = url
 win.document.body.appendChild(iframe)
 }
 	</script>
+
+<button class="aboutblank" onclick="tabcloaker()"> Cloak tab as Google </button>
+	<script>
+(function tabcloaker() {
+    var l = document.querySelector("link[rel*='icon']") || document.createElement('link');
+    l.type = 'image/x-icon';
+    l.rel = 'shortcut icon';
+    l.href = 'https://google.com/favicon.ico';
+    document.getElementsByTagName('head')[0].appendChild(l);
+    document.title = 'Google';
+})();
+	</script> 
 <a  class="app" href="apps/1v1.html"> 1v1.lol </a>
 </body>
