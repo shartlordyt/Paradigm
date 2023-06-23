@@ -6,6 +6,11 @@ Let's see where the flow takes us.
 
 Paradigm is an upcomming site that will have a great selecton of games, and be fully future-proof. It will also not violate the terms of service of web IDE's like Replit and Glitch.  It will also host it's own games unlike it's predecessor, Noknok Games.
 
+## Code Stats for Nerds 🤓
+
+![Alt](https://repobeats.axiom.co/api/embed/890300ff38f51b7c272e4fe1e4aea393b6f43fbd.svg "Repobeats analytics image")
+
+
 ## The Future of NokNok
 
 Noknok is currently my most popular unblocked games site, but it is currently poorly maintained. While Noknok was a great way for me to learn HTML, it has broken games, outdated pages that haven't been updated in months, rarely gets updated, and most importantly, steals games and does not self-host them. Noknok will still stay up even after Paradigm gets into a release-worthy state, but as a public archive. I will also no longer make links for Noknok unless it stays popular. Noknok will also recive one last update removing all broken games and unnecessary features. 
