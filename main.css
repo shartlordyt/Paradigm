@@ -80,3 +80,44 @@ h1 {
    margin: 20px;
   display:flex;
 }
+
+
+
+.dropbutton {
+  background-color: #145369;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #145369;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+}
+
+.show {display:block;}
+}
