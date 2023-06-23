@@ -1,7 +1,7 @@
 
 body {
 background-color: #041014;
-font-size: 350%;
+
 }
 
 .aboutblank {
@@ -13,7 +13,7 @@ font-size: 350%;
   cursor: pointer;
   display: inline-block;
   font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
-  font-size: 16px;
+  font-size: 36px;
   font-weight: 700;
   line-height: 1.5;
   margin: 0;
@@ -41,7 +41,7 @@ font-size: 350%;
 
 .app {
   text-align: center;
-  font-size: 16px;
+  font-size: 36px;
   padding:   10px 20px 10px 20px;
   font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
     background-color: #145369;
@@ -60,13 +60,13 @@ font-size: 350%;
 }
 p {
   color: #2596be;
-  font-size: 16px;
+  font-size: 36px;
   text-align: center;
 }
 h1 {
   background-color: #145369;
   color: #2596be;
-  font-size: 26px;
+  font-size: 46px;
   font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
   text-align: center;
 }
