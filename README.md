@@ -50,6 +50,11 @@ https://www.jsdelivr.com/ for their great free CDN
 
 https://getcssscan.com/css-buttons-examples for some CSS
 
+https://github.com/BbyfoxY/CLOAK/tree/main Tab cloak script
+
+Honestly I don't know where that particular about:blank script came from, it's seemingly everywhere and I don't think it's Echo's.
+
+
 Me for all other HTML and CSS (shartlordyt and shelbye12 are the same person, me)
 
 ## 
