@@ -47,13 +47,15 @@ Currently, the only active unblocked link is https://shelbye12.github.io/Paradig
 
 https://github.com/tholman/cursor-effects for the cursor effect on the homepage.
 
-https://hits.seeyoufarm.com/ for the hit counter on the homepage
+https://hits.seeyoufarm.com/ for the hit counter on the homepage and readme.
 
-https://www.jsdelivr.com/ for their great free CDN
+ *insert cdn here* for their great free CDN
 
-https://getcssscan.com/css-buttons-examples for some CSS
+https://getcssscan.com/css-buttons-examples for some CSS, somehwat edited
 
-https://github.com/BbyfoxY/CLOAK/tree/main Tab cloak script
+https://github.com/BbyfoxY/CLOAK/tree/main Tab cloak script, slightly edited
+
+https://www.w3schools.com/css/css_dropdowns.asp Dropdown tutorial/code for dropdown menu. CSS and HTML edited somehwat
 
 Honestly I don't know where that particular about:blank script came from, it's seemingly everywhere and I don't think it's Echo's.
 
