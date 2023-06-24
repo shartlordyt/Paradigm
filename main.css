@@ -28,6 +28,7 @@ background-color: #041014;
 
 
 .app {
+  border-radius: 4px;
   text-align: center;
   font-size: 36px;
   padding:   10px 20px 10px 20px;
@@ -44,6 +45,7 @@ background-color: #041014;
   
 }
 p {
+  border-radius: 4px;
    margin: 20px;
   color: #2596be;
   font-size: 36px;
@@ -52,6 +54,7 @@ p {
   display:inline-block;
 }
 h1 {
+  border-radius: 4px;
   background-color: #145369;
   color: #2596be;
   font-size: 46px;
@@ -65,6 +68,7 @@ h1 {
 
 
 .dropbtn {
+  border-radius: 4px;
   background-color: #145369;
   color: #2596be;
   padding: 16px;
@@ -83,6 +87,7 @@ h1 {
 
 .dropdown-content {
   display: none;
+  border-radius: 4px;
   position: absolute;
   background-color: #145369;
   min-width: 160px;
@@ -93,6 +98,7 @@ h1 {
 
 
 .dropdown-content a {
+  border-radius: 4px;
   color: #2596be;  padding: 12px 16px;
   text-decoration: none;
   display: block;
