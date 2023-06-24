@@ -5,7 +5,7 @@ background-color: #041014;
 }
 
 .aboutblank {
-  display:flex;
+  
   background-color: #145369;
   border-radius: 4px;
   border-style: none;
@@ -59,7 +59,7 @@ background-color: #041014;
   touch-action: manipulation;
   width: 100%;
    margin: 20px;
-  display:flex;
+  display:inline-block;
   
 }
 p {
@@ -68,7 +68,7 @@ p {
   font-size: 36px;
   text-align: center;
   padding: 10px 20px 10px 20px;
-  display:flex;
+  display:inline-block;
 }
 h1 {
   background-color: #145369;
@@ -78,16 +78,16 @@ h1 {
   text-align: center;
   padding: 10px 20px 10px 20px;
    margin: 20px;
-  display:flex;
+ display:inline-block;
 }
 
 
 
 .dropbtn {
   background-color: #145369;
-  color: white;
+  color: #2596be;
   padding: 16px;
-  font-size: 16px;
+  font-size: 36px;
   border: none;
   cursor: pointer;
   font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
@@ -112,11 +112,11 @@ h1 {
 
 
 .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
+  color: #2596be;  padding: 12px 16px;
   text-decoration: none;
   display: block;
   font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+  font-size: 36px;
 }
 
 .show {display:block;}
