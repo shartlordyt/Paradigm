@@ -22,7 +22,7 @@ function blank(){
     var l = document.querySelector("link[rel*='icon']") || document.createElement('link');
     l.type = 'image/x-icon';
     l.rel = 'shortcut icon';
-    l.href = '../newtab,png';
+    l.href = '../newtab.png';
     document.getElementsByTagName('head')[0].appendChild(l);
     document.title = 'New Tab';
 }
