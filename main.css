@@ -10,7 +10,7 @@ background-color: #041014;
   border-radius: 4px;
   border-style: none;
   color: #2596be;
-  display: inline-block;
+  display: block;
   font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
   font-size: 36px;
   margin: 20px;
@@ -51,7 +51,7 @@ p {
   font-size: 36px;
   text-align: center;
   padding: 10px 20px 10px 20px;
-  display:inline-block;
+  display:block;
 }
 h1 {
   border-radius: 4px;
@@ -62,7 +62,7 @@ h1 {
   text-align: center;
   padding: 10px 20px 10px 20px;
   margin: 20px;
- display:inline-block;
+ display:block;
 }
 
 
@@ -81,7 +81,7 @@ h1 {
 
 .dropdown {
   position: relative;
-  display: inline-block;
+  display: block;
   font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
 }
 
