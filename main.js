@@ -13,7 +13,7 @@ function blank(){
     var l = document.querySelector("link[rel*='icon']") || document.createElement('link');
     l.type = 'image/x-icon';
     l.rel = 'shortcut icon';
-    l.href = 'https://www.apsva.us/wp-content/uploads/2019/07/canvas-icon.jpg';
+    l.href = 'https://canvas.wfu.edu/app/uploads/sites/12/2019/09/canvas-logo-1024x1020.png';
     document.getElementsByTagName('head')[0].appendChild(l);
     document.title = 'Canvas';
 }
@@ -22,7 +22,7 @@ function blank(){
     var l = document.querySelector("link[rel*='icon']") || document.createElement('link');
     l.type = 'image/x-icon';
     l.rel = 'shortcut icon';
-    l.href = '../newtab.png?';
+    l.href = 'https://icon-library.com/images/google-chrome-white-icon/google-chrome-white-icon-26.jpg';
     document.getElementsByTagName('head')[0].appendChild(l);
     document.title = 'New Tab';
 }
