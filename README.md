@@ -49,7 +49,7 @@ https://github.com/tholman/cursor-effects for the cursor effect on the homepage.
 
 https://hits.seeyoufarm.com/ for the hit counter on the homepage and readme.
 
- *insert cdn here* for their great free CDN
+https://gitloaf.com for their great free CDN
 
 https://getcssscan.com/css-buttons-examples for some CSS, somehwat edited
 
