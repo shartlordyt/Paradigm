@@ -1,5 +1,5 @@
 
-![alt text](https://github.com/shartlordyt/Paradigm/blob/main/favicon.ico?raw=true)
+![alt text](https://github.com/shartlordyt/Paradigm/blob/main/coologo.png?raw=true)
 
 # Paradigm 
 
