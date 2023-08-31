@@ -9,7 +9,7 @@ background-color: #36213E;
   border-radius: 4px;
   border-style: none;
   color: #91C499;
-  display: inline-block;
+  display: block;
   font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
   font-size: 36px;
   margin: 20px;
@@ -40,7 +40,7 @@ background-color: #36213E;
   font-weight: 700;
   line-height: 1.5;
   margin: 20px;
-  display:inline-block;
+  display:block;
   
 }
 p {
@@ -50,7 +50,7 @@ p {
   font-size: 36px;
   text-align: center;
   padding: 10px 20px 10px 20px;
-  display:inline-block;
+  display:block;
 }
 h1 {
   border-radius: 4px;
@@ -61,7 +61,7 @@ h1 {
   text-align: center;
   padding: 10px 20px 10px 20px;
   margin: 20px;
- display:inline-block;
+ display:block;
 }
 
 
@@ -80,7 +80,7 @@ h1 {
 
 .dropdown {
   position: relative;
-  display: inline-block;
+  display: block;
   font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
 }
 
@@ -102,7 +102,7 @@ h1 {
   border-radius: 4px;
   color: #91C499;  padding: 12px 16px;
   text-decoration: none;
-  display: inline-block;
+  display: block;
   font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
   font-size: 36px;
   margin: 20px;
