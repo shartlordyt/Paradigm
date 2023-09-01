@@ -108,5 +108,10 @@ h1 {
   margin: 20px;
 }
 
-.show {display:block;}
+.show {display:block;
+}
+
+embed {
+  max-width: 100%;
+  max-height:100%:
 }
