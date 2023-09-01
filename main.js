@@ -45,3 +45,32 @@ window.onclick = function(event) {
     }
   }
 }
+
+
+function pageLoad() {
+    coolquote()
+}
+
+
+var quote = 
+[
+"Welcome to Paradigm!",
+"I swear the Unit-01 colors were an accident!",
+"The worst site since Noknok!",
+"Stealing games, in a cool way!",
+"We talk about 'survival of the fittest' a lot but all that really means is the skilled live and the unskilled die. Since you're clearly in that second group, maybe pick your fights a bit more carefully? Do you understand what I'm saying? It's never going to matter how much you 'want it' when you're up against someone who can kill you with a sneeze.",
+"Sol Badguy",
+"Subcribe to Shartlord!",
+"What's an IDE?",
+"Senile Grandpa",
+"Back in my day, games weren't blocked!",
+"3kh0 is cool!!!!",
+"Fun fact: Noknok has had over 20 broken games in it's lifetime!",
+"Fun fact: I would move the games over to this repo but it would make it really really big and i'm lazy",
+
+]
+
+
+function coolquote(){
+    document.getElementById('thecoolquoter').innerHTML = quote[Math.floor(Math.random() * quote.length)]
+}
