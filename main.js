@@ -67,7 +67,7 @@ var quote =
 "3kh0 is cool!!!!",
 "Fun fact: Noknok has had over 20 broken games in it's lifetime!",
 "Fun fact: I would move the games over to this repo but it would make it really really big and i'm lazy",
-
+"🖥",
 ]
 
 
