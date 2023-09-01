@@ -68,7 +68,7 @@ var quote =
 ]
 
 function pageLoad() {
-    quote()
+    coolquote()
 }
 
 
