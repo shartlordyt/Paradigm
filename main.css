@@ -136,3 +136,28 @@ embed {
   max-height:100%:
   overflow: hidden;
 }
+
+
+/* Search bar styles */
+#searchInput {
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 24px;
+  border: none;
+  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+  margin: 20px;
+  background-color: #0D5521;
+  color: #91C499;
+  outline: none;
+}
+
+#searchInput::placeholder {
+  color: #91C499;
+  opacity: 0.7;
+}
+
+#searchInput:focus {
+  background-color: #0D5521;
+  color: #91C499;
+  opacity: 0.9;
+}
