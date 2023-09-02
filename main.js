@@ -163,4 +163,4 @@ var searchInput = document.getElementById("searchInput");
 searchInput.addEventListener("input", function () {
     updateGameList(searchInput.value);
 });
-});
+
