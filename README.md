@@ -27,6 +27,15 @@ Paradigm will have no-risk deploying on the following sites as it hosts no proxi
 <a target="_blank" href="https://glitch.com/edit/#!/import/github/shartlordyt/Paradigm"><img alt="Remix on Glitch" src="https://binbashbanana.github.io/deploy-buttons/buttons/official/glitch.svg"></a>
 <a target="_blank" href="https://vercel.com/new/clone?repository-url=https://github.com/shartlordyt/Paradigm"><img alt="Deploy to Vercel" src="https://binbashbanana.github.io/deploy-buttons/buttons/official/vercel.svg"></a>
 
+### But wait, what if I want to host the games myself?
+
+It's not hard, but it's reaaaly boring. First you are gonna have to fork this repository: https://github.com/shartlordyt/3kh0-Assets/tree/main
+Then you have to go the "apps" folder and on (ALMOST) game page replace this part in the embed tag with your github username. ![image](https://github.com/shartlordyt/Paradigm/assets/115052495/e0a00ba4-b0d4-433f-a0d4-f66f9201aab4) 
+In some cases the link will be from the "Tradition" repository ![image](https://github.com/shartlordyt/Paradigm/assets/115052495/8b6f6e2c-937f-4ad6-80b4-fa382f116894)
+Then you will have to fork this repository (Theres two because to update the repo with git i have to download it so its just better if theres two repos) https://github.com/shartlordyt/Tradition
+The process is the same with the 3kh0 games, just replace shartlordyt with your github username in the embed tag. 
+
+
 ### Active Links
 
 Currently, the only active unblocked link is https://shelbye12.github.io/Paradigm/, but it may be outdated. This section will be updated when the site is fully released.
@@ -34,8 +43,8 @@ Currently, the only active unblocked link is https://shelbye12.github.io/Paradig
 ## Site Plans
 
 - [x] Create Repo and readme with needed info about the site
-- [ ] Get CSS to a point where the site looks nice and clean
-- [ ] Add needed metadata
+- [x] Get CSS to a point where the site looks nice and clean
+- [x] Add needed metadata
 - [ ] Start adding games
 - [ ] Continue updating the site and maybe add tab cloak or other QOL features
 - [ ] Get 40 games on the site and release the site
