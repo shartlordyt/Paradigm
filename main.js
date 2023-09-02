@@ -64,6 +64,13 @@ var quote =
 "3kh0 is cool!!!!",
 "Fun fact: Noknok has had over 20 broken games in it's lifetime!",
 "Fun fact: I would move the games over to this repo but it would make it really really big and i'm lazy",
+"Someday i will learn how to use emulator.js!",
+"This site has games",
+"I'm not adding different themes to the site because im lazy",
+"Insert really obscure reference here",
+"Robo Ky for Strive",
+"Most of these must sound like insane ramblings haha",
+"Email me at paradigmgit@gmail.com to suggest games, features, and even stupid quotes like this!",
 "🖥"
 ]
 
