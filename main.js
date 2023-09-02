@@ -107,7 +107,7 @@ function coolquote(){
             "2048.html",
             "btd4.html",
             "amogus.html",
-	    "infernalthrone.html",
+	    "infernalthrone.html"
 
         ];
 
