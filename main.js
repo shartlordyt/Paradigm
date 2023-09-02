@@ -104,16 +104,16 @@ function coolquote(){
     function getRandomGameURL() {
 
         var gameList = [
-            "apps/2048.html",
-            "apps/btd4.html",
-            "apps/amogus.html",
-	    "apps/infernalthrone.html",
+            "2048.html",
+            "btd4.html",
+            "amogus.html",
+	    "infernalthrone.html",
 
         ];
 
         var randomIndex = Math.floor(Math.random() * gameList.length);
 
-        var randomGameURL = "games/" + gameList[randomIndex];
+        var randomGameURL = "apps/" + gameList[randomIndex];
 
         window.location.href = randomGameURL;
     }
