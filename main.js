@@ -116,6 +116,7 @@ function coolquote(){
         var randomGameURL = "apps/" + gameList[randomIndex];
 
         window.location.href = randomGameURL;
+	console.log("Button clicked!");
     }
 
     document.getElementById("randomGameButton").addEventListener("click", getRandomGameURL);
