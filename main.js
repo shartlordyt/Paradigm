@@ -140,7 +140,6 @@ var games = [
     
 ];
 
-
 function updateGameList(query) {
     var filteredGames = games.filter(function (game) {
         return game.toLowerCase().includes(query.toLowerCase());
@@ -160,8 +159,8 @@ function updateGameList(query) {
     }
 }
 
-
 var searchInput = document.getElementById("searchInput");
 searchInput.addEventListener("input", function () {
     updateGameList(searchInput.value);
+});
 });
