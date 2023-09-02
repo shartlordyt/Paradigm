@@ -61,7 +61,7 @@ Honestly I don't know where that particular about:blank script came from, it's s
 
 
 Me for all other HTML and CSS (shartlordyt and shelbye12 are the same person, me)
-
+Contact me at paradigmgit@gmail.com for suggestions and feedback!
 ## 
 
 
