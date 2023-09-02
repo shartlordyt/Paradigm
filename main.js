@@ -140,7 +140,7 @@ var games = [
     
 ];
 
-/
+
 function updateGameList(query) {
     var filteredGames = games.filter(function (game) {
         return game.toLowerCase().includes(query.toLowerCase());
