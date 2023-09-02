@@ -82,7 +82,7 @@ var quote =
 "Shinji, crank that soulja boy",
 "You can click on this thing for a new stupid quote",
 " II Ii I I I_",
-"These are in the main js file instead of their own because i'm an idiot"
+"These are in the main js file instead of their own because i'm an idiot",
 "Idle Breakout, I have breakouts on my face",
 "github.com/shartlord",
 "Bedman",
