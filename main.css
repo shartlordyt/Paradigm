@@ -84,6 +84,20 @@ h1 {
   margin: 20px;
 }
 
+
+button {
+  border-radius: 4px;
+  background-color: #0D5521;
+  color: #91C499;
+  padding: 10px 20px 10px 20px;
+  font-size: 36px;
+  border: none;
+  cursor: pointer;
+  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+  margin: 20px;
+}
+
+
 .dropdown {
   position: relative;
   display: block;
