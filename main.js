@@ -131,36 +131,5 @@ function coolquote(){
     document.getElementById("randomGameButton").addEventListener("click", getRandomGameURL);
 
 
-   // Search
-var games = [
-    "2048",
-    "BTD4",
-    "Amogus TD",
-    "Infernal Throne",
-    
-];
 
-function updateGameList(query) {
-    var filteredGames = games.filter(function (game) {
-        return game.toLowerCase().includes(query.toLowerCase());
-    });
-
-    var gameList = document.getElementById("gameList");
-    gameList.innerHTML = "";
-
-    if (filteredGames.length === 0) {
-        gameList.innerHTML = "No games found.";
-    } else {
-        filteredGames.forEach(function (game) {
-            var gameItem = document.createElement("div");
-            gameItem.textContent = game;
-            gameList.appendChild(gameItem);
-        });
-    }
-}
-
-var searchInput = document.getElementById("searchInput");
-searchInput.addEventListener("input", function () {
-    updateGameList(searchInput.value);
-});
 
