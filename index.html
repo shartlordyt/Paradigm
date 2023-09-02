@@ -1,51 +1,45 @@
+<!DOCTYPE html>
 <html lang="en-us">
-
-	<body onload="pageLoad()" >
-
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paradigm</title>
-  
     <link rel="icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://unpkg.com/cursor-effects@latest/dist/browser.js"></script>
+    <script src="main.js"></script>
+    <script>
+        window.addEventListener("load", (event) => {
+            new cursoreffects.followingDotCursor();
+        });
+    </script>
 </head>
+<body onload="pageLoad()">
+    <img src="coologo.png" class="Fatty" alt="Epic logo" width="256" height="128">
+    <h1>Paradigm | Alpha</h1>
+<input type="text" id="searchInput" placeholder="Search for games...">
+<div id="gameList">
 
-<script src="https://unpkg.com/cursor-effects@latest/dist/browser.js"></script>
-<script src="main.js"></script>
-	<script> window.addEventListener("load", (event) => {
-  new cursoreffects.followingDotCursor();
-});
-</script>
-
-		 <img src="coologo.png" class="Fatty" alt="Epic logo" width="256" height="128"> 
-
-<link rel="stylesheet" href="main.css">
-<h1> Paradigm | Alpha </h1>
-	<div style="text-align:center;">
-		<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fshartlordyt%2FParadigm&count_bg=%233D8CC8&title_bg=%23555555&icon=jsdelivr.svg&icon_color=%23E7E7E7&title=Daily+Visits+%7C+All+Time+Visits&edge_flat=false"/></a>
-	</div>
-	<p id="thecoolquoter" onload="coolquote()" onclick="coolquote()"></p>
-	
-		<button class="aboutblank" onclick="blank()">Open in about:blank </button>
-		
-
-		<div class="dropdown">
-  <button onclick="Dropdown()" class="dropbtn">Tab Cloakers</button>
-  <div id="myDropdown" class="dropdown-content">
-    <a href="javascript:tabcloakergoogle()"> Google Tab Cloak</a>
-	<a href="javascript:tabcloakercanvas()"> Canvas Tab Cloak</a>
-	<a href="javascript:tabcloakernew()"> New Tab Cloak</a>
-
-  </div>
-
-		</div>
-
-<button id="randomGameButton">Random Game Button</button>
-<a  class="app" href="apps/amogus.html"> Amogus TD 1 </a>
-<a  class="app" href="apps/btd4.html"> Bloons Tower Defense 4 </a>
-<a  class="app" href="apps/infernalthrone.html"> Infernal Throne </a>
-
-	
+</div>
+    <div style="text-align: center;">
+        <a href="https://hits.seeyoufarm.com">
+            <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fshartlordyt%2FParadigm&count_bg=%233D8CC8&title_bg=%23555555&icon=jsdelivr.svg&icon_color=%23E7E7E7&title=Daily+Visits+%7C+All+Time+Visits&edge_flat=false"/>
+        </a>
+    </div>
+    <p id="thecoolquoter" onload="coolquote()" onclick="coolquote()"></p>
+    <button class="aboutblank" onclick="blank()">Open in about:blank</button>
+    <div class="dropdown">
+        <button onclick="Dropdown()" class="dropbtn">Tab Cloakers</button>
+        <div id="myDropdown" class="dropdown-content">
+            <a href="javascript:tabcloakergoogle()">Google Tab Cloak</a>
+            <a href="javascript:tabcloakercanvas()">Canvas Tab Cloak</a>
+            <a href="javascript:tabcloakernew()">New Tab Cloak</a>
+        </div>
+    </div>
+    <button id="randomGameButton">Random Game Button</button>
+    <a class="app" href="apps/amogus.html">Amogus TD 1</a>
+    <a class="app" href="apps/btd4.html">Bloons Tower Defense 4</a>
+    <a class="app" href="apps/infernalthrone.html">Infernal Throne</a>
 </body>
 </html>
+
