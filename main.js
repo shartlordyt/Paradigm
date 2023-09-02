@@ -97,3 +97,26 @@ function pageLoad() {
 function coolquote(){
     document.getElementById('thecoolquoter').innerHTML = quote[Math.floor(Math.random() * quote.length)]
 }
+
+
+
+<script>
+    function getRandomGameURL() {
+
+        var gameList = [
+            "apps/2048.html",
+            "apps/btd4.html",
+            "apps/amogus.html",
+	    "apps/infernalthrone.html",
+
+        ];
+
+        var randomIndex = Math.floor(Math.random() * gameList.length);
+
+        var randomGameURL = "games/" + gameList[randomIndex];
+
+        window.location.href = randomGameURL;
+    }
+
+    document.getElementById("randomGameButton").addEventListener("click", getRandomGameURL);
+
