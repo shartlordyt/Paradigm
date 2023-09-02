@@ -1,9 +1,11 @@
+
+
 document.addEventListener("DOMContentLoaded", function () {
     
     document.getElementById("randomGameButton").addEventListener("click", getRandomGameURL);
 });
 
-
+// ttabclock
 
 function blank(){
       (function () {var url = document.URL; var urlObj = new window.URL(window.location.href); win = window.open(); win.document.body.style.margin = "0"; win.document.body.style.height = "100vh"; var iframe = win.document.createElement("iframe"); iframe.style.border = "none"; iframe.style.width = "100%"; iframe.style.height = "100%"; iframe.style.margin = "0"; iframe.referrerpolicy = "no-referrer"; iframe.allow = "fullscreen"; iframe.src = url.toString(); win.document.body.appendChild(iframe); var script = win.document.createElement("script"); script.src = ""; win.document.body.appendChild(script); })();
@@ -34,7 +36,7 @@ function blank(){
     document.title = 'New Tab';
 }
 
-
+//  iiii seee the dropdown 
 function Dropdown() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -54,7 +56,7 @@ window.onclick = function(event) {
 }
 
 
-
+// Yeah this is the quoter
 
 var quote = 
 [
@@ -105,7 +107,7 @@ function coolquote(){
     document.getElementById('thecoolquoter').innerHTML = quote[Math.floor(Math.random() * quote.length)]
 }
 
-
+ // uhhhh the uhhhh uh Random game function
 
 
     function getRandomGameURL() {
@@ -128,3 +130,38 @@ function coolquote(){
 
     document.getElementById("randomGameButton").addEventListener("click", getRandomGameURL);
 
+
+   // Search
+var games = [
+    "2048",
+    "BTD4",
+    "Amogus TD",
+    "Infernal Throne",
+    
+];
+
+/
+function updateGameList(query) {
+    var filteredGames = games.filter(function (game) {
+        return game.toLowerCase().includes(query.toLowerCase());
+    });
+
+    var gameList = document.getElementById("gameList");
+    gameList.innerHTML = "";
+
+    if (filteredGames.length === 0) {
+        gameList.innerHTML = "No games found.";
+    } else {
+        filteredGames.forEach(function (game) {
+            var gameItem = document.createElement("div");
+            gameItem.textContent = game;
+            gameList.appendChild(gameItem);
+        });
+    }
+}
+
+
+var searchInput = document.getElementById("searchInput");
+searchInput.addEventListener("input", function () {
+    updateGameList(searchInput.value);
+});
