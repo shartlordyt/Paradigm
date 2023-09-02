@@ -71,7 +71,18 @@ var quote =
 "Robo Ky for Strive",
 "Most of these must sound like insane ramblings haha",
 "Email me at paradigmgit@gmail.com to suggest games, features, and even stupid quotes like this!",
-"🖥"
+"🖥",
+"https://www.youtube.com/channel/UCzVHyU7R36cU13tfsmitiOg",
+"if i knew how to add a chat feature i wouldn't because letting teens have an uncensored chat is a recipe for disaster",
+"No evil clowns here!",
+"Honestly quite incredible",
+"The site of all time",
+"'go outside' - words of a person who needs to go outside",
+"gripe is a cool man",
+"Shinji, crank that soulja boy",
+"You can click on this thing for a new stupid quote",
+" II Ii I I I_",
+"These are in the main js file instead of their own because i'm an idiot"
 ]
 
 function pageLoad() {
