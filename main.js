@@ -100,7 +100,7 @@ function coolquote(){
 
 
 
-<script>
+
     function getRandomGameURL() {
 
         var gameList = [
