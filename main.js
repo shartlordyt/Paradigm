@@ -130,6 +130,60 @@ function coolquote(){
 
     document.getElementById("randomGameButton").addEventListener("click", getRandomGameURL);
 
+// Game week
 
+window.addEventListener("load", function () {
+
+    const gameOfTheWeek = document.getElementById("gameOfTheWeek");
+
+  
+    const gamesOfWeek = [
+        {
+        
+            title: "2048",
+            description: "Fun infinite puzzler, or you can watch it solve itself.",
+            link: "apps/2048.html",
+        },
+        {
+       
+            title: "Amogus TD 1",
+            description: "A silly tower defense based on the amogus meme",
+            link: "apps/amogus.html",
+        },
+        {
+       
+            title: "Bloons Tower Defense 4",
+            description: "A classic tower defense with tons upgrades, modes, and towers!",
+            link: "apps/btd4.html",
+        },
+        {
+       
+            title: "Infernal Throne",
+            description: "A short game inspired by hollow knight where you explore hell that is mostly speed oriented, but also has a good deal of collectables",
+            link: "apps/infernalthrone.html",
+        },
+	
+    ];
+
+
+    const currentDay = new Date().getDay();
+
+    const gameIndex = currentDay % gamesOfWeek.length;
+
+    const game = gamesOfWeek[gameIndex];
+
+    
+    const gameElement = document.createElement("div");
+    gameElement.classList.add("game");
+
+    gameElement.innerHTML = `
+        <h2>${game.title}</h2>
+        <p>${game.description}</p>
+        <a href="${game.link}">Play Now</a>
+    `;
+
+    // Append the game element to the game of the week container
+    gameOfTheWeek.appendChild(gameElement);
+});
 
 
