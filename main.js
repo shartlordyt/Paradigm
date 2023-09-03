@@ -177,8 +177,8 @@ window.addEventListener("load", function () {
     gameElement.classList.add("game");
 
     gameElement.innerHTML = `
-        <h1>${game.title}</h2>
-        <p>${game.description}</p>
+        <p>${game.title}</h2>
+        <p class="gome">${game.description}</p>
         <a href="${game.link}">Play Now</a>
     `;
 
