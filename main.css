@@ -70,7 +70,18 @@ h1 {
  display:block;
 }
 
+.gome {
+  border-radius: 4px;
+  background-color: #0D5521;
+  color: #91C499;
+  font-size: 20px;
+  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+  text-align: center;
+  padding: 10px 20px 10px 20px;
+  margin: 20px;
+ display:block;
 
+}
 
 .dropbtn {
   border-radius: 4px;
