@@ -177,9 +177,11 @@ window.addEventListener("load", function () {
     gameElement.classList.add("game");
 
     gameElement.innerHTML = `
+     <div class="ihateliving">
         <p>${game.title}</h2>
         <p class="gome">${game.description}</p>
         <a href="${game.link}">Play Now</a>
+  </div>
     `;
 
     // Append the game element to the game of the week container
