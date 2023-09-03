@@ -80,7 +80,7 @@ h1 {
   padding: 10px 20px 10px 20px;
   margin: 20px;
  display:block;
-
+ 
 }
 
 .dropbtn {
@@ -148,4 +148,7 @@ embed {
   overflow: hidden;
 }
 
+.ihateliving {
 
+  background-color: #0D5521;
+}
