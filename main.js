@@ -130,3 +130,23 @@ function coolquote(){
 
     document.getElementById("randomGameButton").addEventListener("click", getRandomGameURL);
 
+
+// Fatty fullscreen
+const embed = document.getElementById("myEmbed");
+const fullscreenButton = document.getElementById("fullscreenButton");
+
+
+function enterFullscreen() {
+    if (embed.requestFullscreen) {
+        embed.requestFullscreen();
+    } else if (embed.mozRequestFullScreen) { // Firefox
+        embed.mozRequestFullScreen();
+    } else if (embed.webkitRequestFullscreen) { // Chrome, Safari, and Opera
+        embed.webkitRequestFullscreen();
+    } else if (embed.msRequestFullscreen) { // IE/Edge
+        embed.msRequestFullscreen();
+    }
+}
+
+
+fullscreenButton.addEventListener("click", enterFullscreen);
