@@ -95,7 +95,10 @@ var quote =
 "Idle Breakout, I have breakouts on my face",
 "github.com/shartlord",
 "Bedman",
+"A copious amount of guilty gear references!",
+"how do i use title tag",
 "Favicons only work on game pages!"
+
 ]
 
 function pageLoad() {
