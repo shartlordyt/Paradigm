@@ -93,7 +93,7 @@ var quote =
 " II Ii I I I_",
 "These are in the main js file instead of their own because i'm an idiot",
 "Idle Breakout, I have breakouts on my face",
-"github.com/shartlord",
+"github.com/shartlordyt",
 "Bedman",
 "A copious amount of guilty gear references!",
 "how do i use title tag",
