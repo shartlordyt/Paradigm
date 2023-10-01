@@ -119,6 +119,7 @@ function coolquote(){
             "2048.html",
             "btd4.html",
             "amogus.html",
+	     "basketrandom.html",
 	    "infernalthrone.html"
 
         ];
