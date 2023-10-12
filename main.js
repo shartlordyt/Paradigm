@@ -121,6 +121,7 @@ function coolquote(){
 	"btts.html",
 	     "basketrandom.html",
         "cubefield.html",
+		"ckc.html",
 	    "infernalthrone.html"
 
         ];
