@@ -81,7 +81,6 @@ var quote =
 "Most of these must sound like insane ramblings haha",
 "Email me at paradigmgit@gmail.com to suggest games, features, and even stupid quotes like this!",
 "🖥",
-"https://www.youtube.com/channel/UCzVHyU7R36cU13tfsmitiOg",
 "if i knew how to add a chat feature i wouldn't because letting teens have an uncensored chat is a recipe for disaster",
 "No evil clowns here!",
 "Honestly quite incredible",
@@ -121,6 +120,7 @@ function coolquote(){
             "amogus.html",
 	"btts.html",
 	     "basketrandom.html",
+        "cubefield.html",
 	    "infernalthrone.html"
 
         ];
